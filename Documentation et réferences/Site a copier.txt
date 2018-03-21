@@ -1,2 +1,5 @@
 Page d'accueil:
 http://www.bistrotters.com/
+
+Avis:
+http://www.chezmademoiselle-parisastana.fr/avis/
