@@ -1,0 +1,19 @@
+header{
+	border: 2px black dashed;
+	margin: 100px;
+}
+section{
+	border: 2px black dashed;
+	padding: 20px;
+	margin: 20px;
+}
+footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+
+  margin: 20px;
+  border: 2px black dashed;
+}

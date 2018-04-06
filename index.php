@@ -8,6 +8,7 @@
 
 	<title>Belle Table</title>
 
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -21,7 +22,7 @@
 <body>
 	<div class="container">
 		<header class="row">
-			<div class="col-lg-12"><!--12colonnes-->
+			<div class="col-lg-12">
 				<div class="row">
 					<a href="index.php" title="accueil"><img src="img/logo.jpg" alt="logo" title="logo"/></a>
 					<h1>Slogan !</h1>
@@ -38,37 +39,62 @@
 			</div>
 		</header>
 
+		<section class="row text-center">
+			<div class="col-lg-12">
+				<p>Apud has gentes, quarum exordiens initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti, equorum adiumento pernicium graciliumque camelorum per diversa se raptantes, in tranquillis vel turbidis rebus: nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus: nec idem perferunt diutius caelum aut tractus unius soli illis umquam placet.</p>
+			</div>
+		</section>
+
+		<section class="row text-center">
+			<div class="col-lg-4">
+				<p>Apud has gentes, quarum exordiens initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti, equorum adiumento pernicium graciliumque camelorum per diversa se raptantes, in tranquillis vel turbidis rebus: nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus: nec idem perferunt diutius caelum aut tractus unius soli illis umquam placet.</p>
+			</div>
+			<div class="col-lg-4">
+				<p>Apud has gentes, quarum exordiens initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti, equorum adiumento pernicium graciliumque camelorum per diversa se raptantes, in tranquillis vel turbidis rebus: nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus: nec idem perferunt diutius caelum aut tractus unius soli illis umquam placet.</p>
+			</div>
+			<div class="col-lg-4">
+				<p>Apud has gentes, quarum exordiens initium ab Assyriis ad Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis sagulis pube tenus amicti, equorum adiumento pernicium graciliumque camelorum per diversa se raptantes, in tranquillis vel turbidis rebus: nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus: nec idem perferunt diutius caelum aut tractus unius soli illis umquam placet.</p>
+			</div>
+		</section>
 
 
 
 
 
 
+		<footer class="row text-center">
+			<div class="col-lg-4">
+				<ul class="list-unstyled">
+					<li>Infos légales</li>
+					<li>Contact</li>
+					<li>Horaires</li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<ul class="list-unstyled">
+					<li>Offre d'emplois</li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<ul class="list-unstyled">
+					<li>Structure informatique</li>
+					<li>Matériel informatique</li>
+				</ul>
+			</div>
 
-		<footer>
-			<footer>
-				<div>
-					<ul>
-						<li>Infos légales</li>
-						<li>Contact</li>
-						<li>Horaires</li>
-						<li>Offre d'emplois</li>
+			<div class="row text-center">
+				<div class="col-lg-12">
+					<ul class="list-inline">
+						<li class="list-inline-item">fb</li>
+						<li class="list-inline-item">instagram</li>
+						<li class="list-inline-item">Twiter</li>
 					</ul>
 				</div>
-				<div>
-					<ul>
-						<li>Structure informatique</li>
-						<li>Matériel informatique</li>
-					</ul>
-				</div>
-				<div>
-					<ul>
-						<li>fb</li>
-						<li>instagram</li>
-						<li>Twiter</li>
-					</ul>
-				</div>
-			</footer>
+			</div>
+
+			<div class="row text-center">
+				<p>copyright</p>
+			</div>
 		</footer>
 
 
