@@ -9,6 +9,7 @@
 	<title>Belle Table</title>
 
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -22,11 +23,36 @@
 <body>
 	<div class="container">
 		<header class="row">
-			<div class="col-lg-12">
+			<div class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+					<div class="navbar-header">
+
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<a class="navbar-brand" href="index.php" title="BelleTable" rel="homepage">Belle Table</a>
+
+					</div>
+
+
+					<div class="navbar-collapse collapse navbar-right navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="presentation.html">Présentation</a></li>
+							<li><a href="reservation.html">Réservation</a></li>
+							<li><a href="avis.html">Avis</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>   
+
+			<!-- <div class="col-lg-12">
 				<div class="row">
-					<a href="index.php" title="accueil"><img src="img/logo.jpg" alt="logo" title="logo"/></a>
-					<h1>Slogan !</h1>
-					
 					<nav class="navbar navbar-default navbar-fixed-top">
 						<ul class="nav navbar-nav">
 							<li><a href="presentation.html">Présentation</a></li>
@@ -35,9 +61,25 @@
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
+
+					<a href="index.php" title="accueil"><img src="img/logo.jpg" alt="logo" title="logo"/></a>
+					<h1>Slogan !</h1>
 				</div>
-			</div>
+			</div> -->
 		</header>
+
+		<div id="bannerwrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">
+						<h1>BELLE TABLE</h1>
+						<h4>POUR UN DRESSAGE DIGNE DES ROIS</h4>
+					</div>
+
+				</div><!-- /row -->
+			</div> <!-- /container -->
+		</div><!-- /bannerwrap -->
+
 
 		<section class="row text-center">
 			<div class="col-lg-12">
@@ -84,8 +126,8 @@
 
 			<div class="row text-center">
 				<div class="col-lg-12">
-					<ul class="list-inline">
-						<li class="list-inline-item">fb</li>
+					<ul class="list-inline social">
+						<li class="list-inline-item">facebook</li>
 						<li class="list-inline-item">instagram</li>
 						<li class="list-inline-item">Twiter</li>
 					</ul>

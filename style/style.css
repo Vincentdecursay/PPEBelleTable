@@ -1,6 +1,13 @@
-header{
-	border: 2px black dashed;
-	margin: 100px;
+#bannerwrap{
+	background: url(../img/banner.jpg) no-repeat center top;
+	background-size: cover;
+	min-height: 650px;
+	background-position: center center;
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 250px;
+	text-align: center;
+	color: white;
 }
 section{
 	border: 2px black dashed;
@@ -8,12 +15,12 @@ section{
 	margin: 20px;
 }
 footer {
-  position: relative;
-  margin-top: -150px; /* negative value of footer height */
-  height: 150px;
-  clear:both;
-  padding-top:20px;
+	position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+	padding-top:20px;
 
-  margin: 20px;
-  border: 2px black dashed;
+	margin: 20px;
+	border: 2px black dashed;
 }
