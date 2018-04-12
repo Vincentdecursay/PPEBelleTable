@@ -1,8 +1,0 @@
-Page d'accueil:
-http://www.bistrotters.com/
-
-Avis:
-http://www.chezmademoiselle-parisastana.fr/avis/
-
-Layout general:
-http://themes.getbootstrap.com/preview/?theme_id=1651&show_new=
